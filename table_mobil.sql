@@ -1,0 +1,6 @@
+CREATE TABLE data_mobil (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nama_merk VARCHAR(255) NOT NULL,
+    warna VARCHAR(255) NOT NULL,
+    jumlah INT(10) NOT NULL
+);
